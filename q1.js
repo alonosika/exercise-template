@@ -4,11 +4,14 @@ function run() {
     let out = "";
 /**/
     // write your code here
-    if (Array.isArray(("input").value) === true){
+
+    const arr= JSON.parse(input);
+    if (toString.call(arr) === "[object Array]"){ 
         out= true;
     } else{
         out= false;  
     } 
+    
 /**/
     output.innerText = out;
 }
