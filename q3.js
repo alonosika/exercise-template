@@ -12,7 +12,7 @@
         if (n > 0){
             return array.slice(0, n);
         } else{
-            return ("[]" + array[0]);
+            return ("[" + array[0] + "]");
         } 
 
 /**/
